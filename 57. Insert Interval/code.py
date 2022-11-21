@@ -27,7 +27,7 @@ class Solution:
                 res.append(ele)
                 continue
             if(res[idx-1][1] >= ele[0]):
-                print("here", res[idx-1][1], ele[0])
+                # print("here", res[idx-1][1], ele[0])
                 res[idx-1][1] = max([ele[1], res[idx-1][1]])
             else:
                 idx += 1
